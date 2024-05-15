@@ -1,0 +1,563 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+#logo {
+    width: 110%;
+    object-fit: cover;
+}
+
+header .navbar {
+    background-color: #ffffff !important;
+    height: 100px;
+}
+
+#correto {
+    width: 3%;
+    margin: 5px;
+}
+
+#delete {
+    width: 5%;
+    margin: 5px;
+}
+
+#butao-orcamento {
+    background-color: #469A16;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#butao-orcamento a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    margin-left: 500px;
+}
+
+.navbar-nav a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.first-sec {
+    height: 700px;
+    background-size: cover;
+    background-image: url(/imagens/tela.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-sec .txt-top h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.first-sec .txt-top p {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+    width: 300px;
+}
+
+.first-sec .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-sec .box-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-right img {
+    width: 60%;
+}
+
+.box-refe {
+    display: flex;
+    align-items: center;
+}
+
+.box-refe .num {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.box-refe .text {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.box-refe .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.first-sec .box-right .traco {
+    width: 3px;
+    height: 90px;
+    margin: 10px;
+    background-color: red;
+}
+
+#second .container {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#second .container .txt h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#second .container .txt p {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+#second .container img {
+    width: 55%;
+}
+
+.box {
+    background-color: red;
+    border-radius: 40px;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box h1 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.box .box-txt {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.conven {
+    background-color: white;
+    padding: 30px;
+    border-radius: 40px 0 0 40px;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.drarqui {
+    background-color: rgb(14, 14, 14);
+    padding: 20px;
+    border-radius: 40px;
+    height: 520px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conven h1 {
+    font-size: 2rem;
+    color: rgb(14, 14, 14);
+    font-weight: 600;
+}
+
+.conven p {
+    font-size: 1rem;
+    color: rgb(14, 14, 14);
+    font-weight: 400;
+}
+
+.drarqui h1 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.drarqui p {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 12px;
+}
+
+.projetos {
+    height: 100%;
+    margin-top: 100px;
+}
+
+.projetos h1 {
+    font-size: 3rem;
+}
+
+.projetos #p-top {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+.projetos #p-bottom {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 200;
+}
+
+.projetos #p-bottom a {
+    color: #131313;
+    font-weight: 300;
+}
+
+.projetos .box-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px 30px;
+    height: 700px;
+}
+
+.projetos .box-all .box-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.projetos .box-all .box-projetos h1 {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.projetos .box-all .box-projetos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.projetos .box-all .box-projetos button {
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    width: 60%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.finan .container {
+    text-align: center;
+    background-color: red;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finan .container h1 {
+    color: white;
+}
+
+.finan .container p {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.finan .container img {
+    width: 90%;
+    border-radius: 40px;
+}
+
+.finan .container button {
+    border: none;
+    background-color: white;
+    color: #469A16;
+    margin: 20px;
+    width: 400px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.note {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.note .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.note .container img {
+    width: 50%;
+    height: 650px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.note .container .txt-note {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.note .container .txt-note h1 {
+    color: red;
+    margin: 45px 0;
+}
+
+.note .container .txt-note button {
+    width: 40%;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #469A16;
+    color: white;
+    border-radius: 5px;
+}
+
+.carousel-container {
+    width: 100%;
+    padding: 30px;
+    /* Ajuste conforme necessário */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+    margin: 10px;
+}
+
+.slide {
+    flex: 0 0 33.3%;
+    padding: 70px;
+}
+
+.slide img {
+    width: 10%;
+}
+
+.comment {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 240px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    background-color: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    width: 120px;
+}
+
+button img {
+    width: 25%;
+}
+
+.prev {
+    left: 0;
+    transform: translateY(-50%);
+    background-color: white;
+    z-index: 1000;
+}
+
+.next {
+    right: 0;
+    transform: translateY(-50%);
+    background-color: white;
+    z-index: 1000;
+}
+
+#sobre{
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+#sobre img {
+    width: 50%;
+}
+
+#sobre .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre .txt-sobre{
+    width: 50%;
+}
+
+#sobre .txt-sobre p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #131313;
+    min-height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .img-footer img{
+    width: 100%;
+    object-fit: cover;
+}
+
+footer p{
+    color: white;
+    font-size: 2.2rem
+}
+
+footer ul h1{
+    font-size: 2.2rem;
+    color: white;
+}
+
+footer .img-footer{
+    width: 150px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+footer ul li{
+    list-style-type: none;
+    color: white;
+}
+
+footer button{
+    border: none;
+    font-size: 1.4rem;
+    width: 200px;
+    background-color: #469A16;
+    border-radius: 10px;
+    color: white;
+}
+
+footer button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer button a img{
+    margin-top: -5px;
+    width: 25px;
+}
+
+footer .redes img{
+    width: 22px;
+}
+
+footer .email{
+    font-weight: 300;
+    color: white;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 440px) {
+    .navbar-nav {
+        margin-left: 0;
+        background-color: #ffffff !important;
+        border-radius: 5px;
+    }
+
+    .navbar-nav a {
+        margin: 5px 5px;
+    }
+
+    .navbar-toggler {
+        margin-left: 300px;
+        margin-top: -100px;
+    }
+
+    header nav.navbar {
+        background-color: #ffffff !important;
+        height: 100px;
+        z-index: 1000;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    header #butao-orcamento {
+        margin: 5px;
+    }
+}
