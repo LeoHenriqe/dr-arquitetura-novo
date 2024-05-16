@@ -1,0 +1,134 @@
+.projetos {
+    height: 100%;
+    margin-top: 100px;
+}
+
+.projetos h1 {
+    font-size: 3rem;
+}
+
+.projetos #p-top {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+.projetos #p-bottom {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 200;
+}
+
+.projetos #p-bottom a {
+    color: #131313;
+    font-weight: 300;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.btn-vermais {
+    background-color: red;
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 2px;
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 1400px;
+    max-height: 800px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal .prev,
+#modal .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 9px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+#modal .prev img {
+    width: 15%;
+}
+
+#modal .next img{
+    width: 15%;
+    right: -250px;
+    position: relative;
+}
+
+#modal .prev {
+    left: 0;
+}
+
+#modal .next{
+    right: 0;
+}
