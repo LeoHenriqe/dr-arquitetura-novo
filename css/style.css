@@ -320,6 +320,7 @@ section.depoimentos {
 section.depoimentos h1 {
     text-align: center;
     font-size: 3rem;
+    color: #131313;
 }
 
 .container-slider {
@@ -329,7 +330,7 @@ section.depoimentos h1 {
 
 .container-slider-single {
     float: left;
-    background-color: white;
+    background-color: rgb(243, 243, 243);
     text-align: center;
     padding: 15px;
     border-radius: 10px;
@@ -518,4 +519,341 @@ footer .email {
     header #butao-orcamento {
         margin: 5px;
     }
+
+
+    .first-sec .txt-top h1 {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-sec .txt-top p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-sec .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-sec .box-right {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .box-right img {
+        width: 30%;
+    }
+
+    .box-refe .num {
+        font-size: 1.2rem;
+    }
+
+    .box-refe .text {
+        font-size: 0.6rem;
+    }
+
+    .box-refe .container1 {
+        width: 100px;
+    }
+
+    .first-sec .box-right .traco {
+        width: 3px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    #second .container {
+        display: flex;
+        height: 900px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #second .container .txt h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #second .container .txt p {
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #second .container img {
+        width: 100%;
+    }
+
+    .box {
+        background-color: red;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box h1 {
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .box .box-txt {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .conven {
+        background-color: white;
+        padding: 30px;
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .drarqui {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 40px;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .conven h1 {
+        font-size: 1rem;
+    }
+
+    .conven p {
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    .drarqui h1 {
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+    }
+
+    .drarqui p {
+        color: white;
+        font-weight: 500;
+        font-size: 0.8rem;
+        margin: 12px;
+    }
+
+    .finan .container button {
+        width: 200px;
+    }
+
+    .note {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .note .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .note .container img {
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .note .container .txt-note {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #p-txt-note {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .note .container .txt-note p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .note .container .txt-note button {
+        width: 90%;
+    }
+
+    section.depoimentos .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.depoimentos h1 {
+        text-align: center;
+        font-size: 2rem;
+        color: #131313;
+    }
+
+    .container-slider {
+        overflow: hidden;
+        padding: 20px 0;
+        width: 250px;
+        align-items: center;
+    }
+
+    .container-slider-single p {
+        margin: 15px 0;
+        color: #1d1d1d;
+        font-size: 14px;
+    }
+
+    .slick-slide {
+        margin-left: 27px;
+    }
+
+    /* the parent */
+    .slick-list {
+        margin-left: -27px;
+    }
+
+    /****SLICK SLIDER****/
+
+    .slick-dotted ul {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+
+    .slick-dotted li {
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+    .slick-dotted button:focus {
+        outline: 0;
+    }
+
+    .slick-dotted li button {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        color: #d8d8d8;
+        border-width: 0;
+        background: #d8d8d8;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    li.slick-active button {
+        background: #c40000;
+        color: #ffffff00;
+    }
+
+    .slick-slide:focus {
+        outline: none;
+    }
+
+    #sobre {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sobre img {
+        width: 100%;
+    }
+
+    #sobre .container {
+        flex-direction: column;
+    }
+
+    #sobre .txt-sobre {
+        width: 100%;
+        align-items: center;
+    }
+
+    #sobre .txt-sobre p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-top: 40px;
+        text-align: justify;
+    }
+
+    footer {
+        min-height: 220px;
+    }
+
+    footer .container {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .img-footer img {
+        width: 80%;
+        object-fit: cover;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    footer ul{
+        margin-left: -20px;
+    }
+
+    footer ul h1 {
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    footer .img-footer {
+        width: 120px;
+    }
+
+    footer button {
+        font-size: 1rem;
+        width: 120px;
+    }
+
+    footer button a img {
+        width: 15px;
+    }
+
+    footer .redes img {
+        width: 22px;
+    }
+
+    footer .email {
+        font-weight: 300;
+        color: white;
+        font-size: 0.7rem;
+    }
+
 }

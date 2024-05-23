@@ -144,3 +144,91 @@
 #modal .next{
     right: 0;
 }
+
+@media screen and (max-width: 440px) {
+    .projetos {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .projetos h1 {
+        font-size: 1.5rem;
+    }
+    
+    .projetos #p-top {
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    
+    .projetos #p-bottom {
+        font-size: 1.6rem;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    .projects img{
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+        border-radius: 10px;
+    }
+    
+    .btn-vermais {
+        background-color: red;
+        border: none;
+        color: white;
+        width: 90%;
+        padding: 2px;
+        margin: 20px 0;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+    
+    .project img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .project h3 {
+        text-align: center;
+        padding: 10px 0;
+        color: red;
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+    
+    .modal-content {
+        margin-top: 150px;
+        width: 400px;
+    }
+    
+    #modal .prev,
+    #modal .next {
+        top: 80%;
+    }
+    
+    #modal .prev img {
+        width: 5%;
+        left: -120px;
+        position: relative;
+    }
+    
+    #modal .next img{
+        width: 5%;
+        right: -120px;
+    }
+}
