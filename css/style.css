@@ -270,7 +270,7 @@ header .navbar {
 
 .note .container img {
     width: 50%;
-    height: 650px;
+    height: 915px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -283,7 +283,18 @@ header .navbar {
 
 .note .container .txt-note h1 {
     color: red;
-    margin: 45px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#p-txt-note {
+    font-size: 1.2rem;
+}
+
+.note .container .txt-note p {
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .note .container .txt-note button {
@@ -295,77 +306,90 @@ header .navbar {
     border-radius: 5px;
 }
 
-.carousel-container {
-    width: 100%;
-    padding: 30px;
-    /* Ajuste conforme necessário */
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    z-index: 1000;
-}
-
-.carousel {
+section.depoimentos .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.5s ease;
-    margin: 10px;
-}
-
-.slide {
-    flex: 0 0 33.3%;
-    padding: 70px;
-}
-
-.slide img {
-    width: 10%;
-}
-
-.comment {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
     flex-direction: column;
-    display: flex;
     align-items: center;
-    height: 240px;
+    justify-content: center;
 }
 
-.prev-1,
-.next-1 {
-    position: absolute;
-    top: 50%;
-    background-color: none;
-    border: none;
-    color: black;
+section.depoimentos {
+    padding: 40px 0;
+}
+
+section.depoimentos h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container-slider {
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single {
+    float: left;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container-slider-single p {
+    margin: 15px 0;
+    color: #1d1d1d;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left: 27px;
+}
+
+/* the parent */
+.slick-list {
+    margin-left: -27px;
+}
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+    outline: 0;
+}
+
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
-    width: 120px;
 }
 
-button img {
-    width: 25%;
+li.slick-active button {
+    background: #c40000;
+    color: #ffffff00;
 }
 
-.prev-1 {
-    left: 0;
-    transform: translateY(-50%);
-    background-color: white;
-    z-index: 1000;
+.slick-slide:focus {
+    outline: none;
 }
 
-.next-1 {
-    right: 0;
-    transform: translateY(-50%);
-    background-color: white;
-    z-index: 1000;
-}
-
-#sobre{
+#sobre {
     height: 800px;
     display: flex;
     align-items: center;
@@ -381,16 +405,18 @@ button img {
     justify-content: center;
 }
 
-#sobre .txt-sobre{
+#sobre .txt-sobre {
     width: 50%;
 }
 
-#sobre .txt-sobre p{
-    font-size: 1rem;
+#sobre .txt-sobre p {
+    font-size: 0.9rem;
     font-weight: 300;
+    margin-top: 40px;
+    text-align: justify;
 }
 
-footer{
+footer {
     background-color: #131313;
     min-height: 200px;
     align-items: center;
@@ -398,43 +424,43 @@ footer{
     justify-content: space-around;
 }
 
-footer .container{
+footer .container {
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
 
-footer .img-footer img{
+footer .img-footer img {
     width: 100%;
     object-fit: cover;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 2.2rem
 }
 
-footer ul h1{
+footer ul h1 {
     font-size: 2.2rem;
     color: white;
 }
 
-footer .img-footer{
+footer .img-footer {
     width: 150px;
 }
 
-footer ul a{
+footer ul a {
     text-decoration: none;
     color: white;
     font-weight: 300;
 }
 
-footer ul li{
+footer ul li {
     list-style-type: none;
     color: white;
 }
 
-footer button{
+footer button {
     border: none;
     font-size: 1.4rem;
     width: 200px;
@@ -448,16 +474,16 @@ footer button a {
     color: white;
 }
 
-footer button a img{
+footer button a img {
     margin-top: -5px;
     width: 25px;
 }
 
-footer .redes img{
+footer .redes img {
     width: 22px;
 }
 
-footer .email{
+footer .email {
     font-weight: 300;
     color: white;
     font-size: 0.7rem;

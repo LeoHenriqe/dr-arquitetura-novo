@@ -1,7 +1,7 @@
 const projects = [
     ["imagens/farmácia bom preço/1.JPG", "imagens/farmácia bom preço/2.JPEG", "imagens/farmácia bom preço/3.JPEG", "imagens/farmácia bom preço/4.JPG"],
     ["imagens/PROJETO HABITAÇÃO SERIADA/1.png", "imagens/PROJETO HABITAÇÃO SERIADA/2.png"],
-    ["imagens/studiok/1.jpeg", "imagens/studiok/2.jpeg", "imagens/studiok/3.jpeg"],
+    ["/imagens/studiok/SVG/Ativo 1.svg", "/imagens/studiok/SVG/Ativo 2.svg", "/imagens/studiok/SVG/Ativo 3.svg"],
     ["imagens/j231/1.jpg", "imagens/j231/2.png", "imagens/j231/3.png", "imagens/j231/4.png", "imagens/j231/5.png"],
     ["/imagens/1303/1.png", "/imagens/1303/2.png", "/imagens/1303/3.png", "/imagens/1303/4.png", "/imagens/1303/5.png"],
     ["/imagens/d&a/1.png", "/imagens/d&a/2.png", "/imagens/d&a/3.jpg", "/imagens/d&a/4.jpg", "/imagens/d&a/6.png"],
@@ -46,41 +46,3 @@ document.addEventListener('keydown', function (event) {
         }
     }
 });
-
-
-
-const carousel = document.querySelector('.carousel');
-const slides = document.querySelectorAll('.slide');
-const prevBtn = document.querySelector('.prev-1');
-const nextBtn = document.querySelector('.next-1');
-
-let currentIndex1 = 0;
-
-function showSlides() {
-    const length = slides.length;
-    const newIndex = currentIndex + 1 < length ? currentIndex + 1 : 0;
-    carousel.style.transform = `translateX(-${(100 / length) * newIndex}%)`;
-    currentIndex = newIndex;
-}
-
-function prevSlide() {
-    currentIndex = currentIndex - 1 >= 0 ? currentIndex - 1 : slides.length - 1;
-    showSlides();
-}
-
-function nextSlide() {
-    currentIndex = currentIndex + 1 < slides.length ? currentIndex + 1 : 0;
-    showSlides();
-}
-
-prevBtn.addEventListener('click', prevSlide);
-nextBtn.addEventListener('click', nextSlide);
-
-const interval1 = setInterval(nextSlide, 3000); // Altere o valor para ajustar o tempo de mudança de slide (em milissegundos)
-
-function resetInterval() {
-    clearInterval(interval1);
-    interval = setInterval(nextSlide, 3000);
-}
-
-showSlides();
