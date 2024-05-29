@@ -1,0 +1,143 @@
+.sec-one{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(/imagens/freepik-export-20240529165458Ms5C.png);
+}
+
+.sec-one .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-one h1{
+    color: white;
+}
+
+.sec-one p{
+    color: white;
+}
+
+.sec-two{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.sec-two .container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.sec-two p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+verde{
+    color: green;
+}
+
+.sec-two .linha{
+    margin-bottom: 30px;
+    width: 50%;
+    height: 1px;
+    background-color: green;
+}
+
+.vantagens{
+    margin-top: 40px;
+}
+
+.vantagens .container{
+    display: flex;
+}
+
+.box-vantagens{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.box-vantagens img{
+    width: 30px;
+}
+
+.pq{
+    margin-top: 100px;
+}
+
+.pq .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pq .box-pq{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.pq p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: black;
+    padding: 20px;
+}
+
+.pq .box-pq-2 {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    text-align: justify;
+    flex-direction: row-reverse;
+}
+
+.pq .box-pq img{
+    width: 55%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pq .box-pq-2 img{
+    width: 55%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: green;
+    margin-top: 100px;
+}
+
+.final p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.final .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.final .container img{
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+}
