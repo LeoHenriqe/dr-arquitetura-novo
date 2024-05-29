@@ -1,5 +1,4 @@
 @import url(/css/projetos.css);
-@import url(/css/finan.css);
 
 * {
     padding: 0;
@@ -500,9 +499,23 @@ footer .email {
     font-size: 0.7rem;
 }
 
+@media screen and (max-width: 1280px) {
+    .navbar-nav {
+        margin-left: -200px;
+    }
+
+    #logo {
+        width: 20%;
+    }
+
+    .container-slider {
+        width: 900px;
+    }
+}
+
 @media screen and (max-width: 440px) {
     .navbar-nav {
-        margin-left: 0;
+        margin-left: -240px;
         background-color: #ffffff !important;
         border-radius: 5px;
     }
@@ -529,7 +542,6 @@ footer .email {
     header #butao-orcamento {
         margin: 5px;
     }
-
 
     .first-sec .txt-top h1 {
         font-size: 2rem;
@@ -668,7 +680,7 @@ footer .email {
     }
 
     .finan .container button {
-        width: 200px;
+        width: 300px;
     }
 
     .note {

@@ -1,4 +1,14 @@
-.sec-one{
+.navbar-nav {
+    width: 400px !important;
+    align-items: center;
+}
+
+#logo {
+    width: 14%;
+    object-fit: cover;
+}
+
+.sec-one {
     height: 600px;
     width: 100%;
     display: flex;
@@ -6,27 +16,27 @@
     background-image: url(/imagens/freepik-export-20240529165458Ms5C.png);
 }
 
-.sec-one .container{
+.sec-one .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.sec-one h1{
+.sec-one h1 {
     color: white;
 }
 
-.sec-one p{
+.sec-one p {
     color: white;
 }
 
-.sec-two{
+.sec-two {
     margin-top: 70px;
     margin-bottom: 70px;
 }
 
-.sec-two .container{ 
+.sec-two .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,52 +45,52 @@
     padding-top: 40px;
 }
 
-.sec-two p{
+.sec-two p {
     font-size: 2rem;
     font-weight: 600;
 }
 
-verde{
+verde {
     color: green;
 }
 
-.sec-two .linha{
+.sec-two .linha {
     margin-bottom: 30px;
     width: 50%;
     height: 1px;
     background-color: green;
 }
 
-.vantagens{
+.vantagens {
     margin-top: 40px;
 }
 
-.vantagens .container{
+.vantagens .container {
     display: flex;
 }
 
-.box-vantagens{
+.box-vantagens {
     width: 30%;
     align-items: center;
     text-align: center;
     padding: 20px;
 }
 
-.box-vantagens img{
+.box-vantagens img {
     width: 30px;
 }
 
-.pq{
+.pq {
     margin-top: 50px;
 }
 
-.pq .container{
+.pq .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pq .box-pq{
+.pq .box-pq {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -89,7 +99,7 @@ verde{
     padding-top: 50px;
 }
 
-.pq p{
+.pq p {
     font-size: 1.3rem;
     font-weight: 300;
     color: black;
@@ -105,19 +115,19 @@ verde{
     flex-direction: row-reverse;
 }
 
-.pq .box-pq img{
+.pq .box-pq img {
     width: 55%;
     padding: 5px;
     border-radius: 10px;
 }
 
-.pq .box-pq-2 img{
+.pq .box-pq-2 img {
     width: 55%;
     padding: 5px;
     border-radius: 10px;
 }
 
-.final{
+.final {
     display: flex;
     align-items: center;
     height: 600px;
@@ -125,7 +135,7 @@ verde{
     margin-top: 100px;
 }
 
-.final p{
+.final p {
     color: white;
     font-size: 1.2rem;
     font-weight: 300;
@@ -133,20 +143,112 @@ verde{
     width: 90%;
 }
 
-.final h1{
+.final h1 {
     color: white;
     margin-bottom: 20px;
     font-size: 1.6rem;
 }
 
-.final .container{
+.final .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.final .container img{
+.final .container img {
     width: 40%;
     height: 500px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 440px) {
+    .navbar-nav {
+        margin-left: 1px !important;
+        width: 100% !important;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    #logo {
+        width: 29%;
+        object-fit: cover;
+    }
+
+    header nav.navbar {
+        background-color: #ffffff !important;
+        height: 100px;
+        z-index: 1000;
+    }
+
+    .sec-one h1,
+    .sec-one p {
+        text-align: center;
+    }
+
+    .sec-two p {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .vantagens .container {
+        flex-direction: column;
+    }
+
+    .box-vantagens {
+        width: 100%;
+    }
+
+    .box-vantagens img {
+        width: 30px;
+    }
+
+
+    .pq .box-pq {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .pq p {
+        font-size: 1.1rem;
+    }
+
+    .pq .box-pq-2 {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .pq .box-pq img {
+        width: 100%;
+    }
+
+    .pq .box-pq-2 img {
+        width: 100%;
+    }
+
+    .final{
+        height: auto;
+    }
+
+    .final p {
+        font-size: 1.1rem;
+        width: 100%;
+        
+    }
+
+    .final h1 {
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .final .container {
+        flex-direction: column;
+    }
+
+    .final .container img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
