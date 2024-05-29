@@ -8,7 +8,7 @@
 }
 
 #logo {
-    width: 110%;
+    width: 50%;
     object-fit: cover;
 }
 
@@ -50,6 +50,7 @@ header .navbar {
 }
 
 .navbar-nav a {
+    cursor: pointer;
     font-size: 1.2rem;
     font-weight: 400;
     margin: 15px;
@@ -460,6 +461,7 @@ footer ul a {
 footer ul li {
     list-style-type: none;
     color: white;
+    cursor: pointer;
 }
 
 footer button {

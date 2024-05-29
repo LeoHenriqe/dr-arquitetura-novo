@@ -9,6 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/Studio_DR_Porta---EDITADO (3).png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
@@ -20,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#"><img id="logo" src="/imagens/Studio_DR_Porta---EDITADO (3).png"
+                <a class="navbar-brand" href="/index.html"><img id="logo" src="/imagens/Studio_DR_Porta---EDITADO (3).png"
                         alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -29,11 +30,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-sm-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" href="#">PROJETOS</a>
-                        <a class="nav-link" href="#">SERVIÇOS</a>
-                        <a class="nav-link" href="#">SOBRE</a>
-                        <a class="nav-link" href="#">CONTATO</a>
-                        <button id="butao-orcamento"><a href=""> Solicitar Orçamento </a></button>
+                        <a target="_blank" class="nav-link" onclick="scrollToSection('projetos')"> PROJETOS</a>
+                        <a target="_blank" class="nav-link" onclick="scrollToSection('sobre')">SOBRE</a>
+                        <a target="_blank" class="nav-link" onclick="scrollToSection('contato')">CONTATO</a>
+                        <button id="butao-orcamento"><a target="_blank" href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0"> Solicitar Orçamento </a></button>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                     obra!</h1>
                 <p>Uma reforma tranquila e previsível começa
                     com um bom projeto.</p>
-                <button id="butao-orcamento"><a href=""> Solicitar Orçamento </a></button>
+                <button id="butao-orcamento"><a target="_blank" href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0"> Solicitar Orçamento </a></button>
             </div>
             <div class="box-right">
                 <img src="/imagens/DR-LOGO-BRANCA.png" alt="" data-aos="fade-down" data-aos-easing="linear"
@@ -92,7 +92,7 @@
         </div>
     </section>
 
-    <section id="beneficios">
+    <section id="metodos">
         <div class="container">
             <div class="box">
                 <h1>Veja a diferença entre um projeto de arquitetura tradicional e o Studio DR:</h1>
@@ -124,14 +124,14 @@
                             Viabilidade Financeira</p>
                         <p><img id="correto" src="/imagens/correto.svg" alt=""> Imagens 3D ultra realísticas + vídeo
                             conceitual</p>
-                        <button id="butao-orcamento"><a href=""> Solicitar Orçamento </a></button>
+                        <button id="butao-orcamento"><a href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0"> Solicitar Orçamento </a></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="projetos">
+    <section class="projetos" id="projetos">
         <div class="container">
             <h1>Seu projeto conceito em <v style="color: green;">vídeo</v> e <v style="color: green;">imagens
                     ultrarrealistas.</v>
@@ -195,7 +195,7 @@
                 <a class="next" onclick="changeImage(1)"><img src="/imagens/seta.svg" alt=""></a>
             </div>
         </div>
-        <p id="p-bottom"> Veja mais projetos em nosso <a href="">Instagram clicando aqui.</a></p>
+        <p id="p-bottom"> Veja mais projetos em nosso <a href="https://www.instagram.com/studiodr_arquitetura/">Instagram clicando aqui.</a></p>
         </div>
     </section>
     <section class="finan">
@@ -207,7 +207,7 @@
         </div>
     </section>
 
-    <section class="note">
+    <section class="note" id="realizacao">
         <div class="container">
             <img src="/imagens/Macbook-pro.png" alt="" data-aos="zoom-out-right">
             <div class="txt-note">
@@ -318,26 +318,25 @@
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container" id="contato">
             <div class="img-footer">
                 <img src="/imagens/Studio_DR_Porta---EDITADO (3).png" alt="">
                 <div class="redes">
-                    <a href=""><img src="/imagens/whats.svg" alt=""></a>
-                    <a href=""><img src="/imagens/insta.svg" alt=""></a>
-                    <a href=""><img src="/imagens/email.svg" alt=""></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0"><img src="/imagens/whats.svg" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com/studiodr_arquitetura/"><img src="/imagens/insta.svg" alt=""></a>
+                    <a target="_blank" href=""><img src="/imagens/email.svg" alt=""></a>
                 </div>
                 <h1 class="email">diegogynz2@gmail.com</h1>
             </div>
             <ul>
                 <h1>Menu</h1>
-                <li><a href=""> Projetos</a></li>
-                <li><a href="">Realização</a></li>
-                <li><a href="">Metodologia</a></li>
-                <li><a href="">Quem somos</a></li>
+                <li><a onclick="scrollToSection('projetos')"> Projetos</a></li>
+                <li><a onclick="scrollToSection('realizacao')">Realização</a></li>
+                <li><a onclick="scrollToSection('metodos')">Metodologia</a></li>
             </ul>
             <div class="txt-footer">
                 <p>Fale conosco</p>
-                <button><a href=""><img src="/imagens/whats.svg" alt="">WhatsApp</a></button>
+                <button><a target="_blank" href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0"><img src="/imagens/whats.svg" alt="">WhatsApp</a></button>
             </div>
         </div>
     </footer>
@@ -365,6 +364,12 @@
                     }
                 }],
         });
+    </script>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
