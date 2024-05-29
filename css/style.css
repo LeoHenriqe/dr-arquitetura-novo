@@ -8,7 +8,8 @@
 }
 
 #logo {
-    width: 50%;
+    margin-left: 50px;
+    width: 130%;
     object-fit: cover;
 }
 
@@ -33,7 +34,6 @@ header .navbar {
     border-radius: 10px;
     width: 200px;
     height: 50px;
-    margin-top: 10px;
 }
 
 #butao-orcamento a {
@@ -46,12 +46,15 @@ header .navbar {
 }
 
 .navbar-nav {
-    margin-left: 500px;
+    width: 850px;
+    margin-left: 400px;
+    align-items: center;
 }
 
 .navbar-nav a {
     cursor: pointer;
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.1rem;
     font-weight: 400;
     margin: 15px;
 }
@@ -235,6 +238,10 @@ header .navbar {
 
 .finan .container h1 {
     color: white;
+}
+
+.finan a{
+    color: #131313;
 }
 
 .finan .container p {
