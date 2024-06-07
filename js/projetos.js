@@ -6,7 +6,8 @@ const projects = [
     ["/imagens/1303/1.png", "/imagens/1303/2.png", "/imagens/1303/3.png", "/imagens/1303/4.png", "/imagens/1303/5.png"],
     ["/imagens/d&a/1.png", "/imagens/d&a/2.png", "/imagens/d&a/3.jpg", "/imagens/d&a/4.jpg", "/imagens/d&a/6.png"],
     ["/imagens/jopm/1.png", "/imagens/jopm/2.jpg", "/imagens/jopm/3.jpg", "/imagens/jopm/4.png", "/imagens/jopm/5.png"],
-    ["/imagens/dani/1.jpg", "/imagens/dani/2.jpg", "/imagens/dani/3.jpg", "/imagens/dani/4.png"]
+    ["/imagens/dani/1.jpg", "/imagens/dani/2.jpg", "/imagens/dani/3.jpg", "/imagens/dani/4.png"],
+    ["/imagens/PROJETO VG/03COZINHA.jpg", "/imagens/PROJETO VG/06SALA.png", "/imagens/PROJETO VG/RENDER04.png", "/imagens/PROJETO VG/RENDER01.png"]
 ];
 
 let currentProject = [];
