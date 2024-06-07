@@ -218,15 +218,17 @@
     
     #modal .prev,
     #modal .next {
-        top:  300px;
+        top:  550px;
+        width: 100%;
     }
     
     #modal .prev img {
-        left: -80px;
+        left: -50px;
         position: relative;
+        z-index: 1000000;
     }
     
     #modal .next img{
-        right: -80px;
+        right: -50px;
     }
 }
