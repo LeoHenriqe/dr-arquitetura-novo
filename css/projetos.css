@@ -218,7 +218,7 @@
     
     #modal .prev,
     #modal .next {
-        top: 90%;
+        top: 50%;
     }
     
     #modal .prev img {
