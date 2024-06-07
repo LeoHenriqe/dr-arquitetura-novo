@@ -593,9 +593,10 @@ footer .email {
 
 @media screen and (max-width: 440px) {
     header .navbar-nav {
-        margin-left: -180px;
-        background-color: #ffffff !important;
+        background-color: #fff !important;
         border-radius: 5px;
+        width: 100%;
+        margin: 0;
     }
 
     .navbar-nav a {
@@ -617,8 +618,8 @@ footer .email {
         margin-top: 0px;
     }
 
-     nav.navbar {
-        background-color: #ffffff !important;
+     header nav.navbar {
+        background-color: #fff !important;
         height: 100px;
         z-index: 1000;
         margin-left: 0px;
