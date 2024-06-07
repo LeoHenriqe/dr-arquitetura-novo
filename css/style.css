@@ -592,7 +592,7 @@ footer .email {
 }
 
 @media screen and (max-width: 440px) {
-    .navbar-nav {
+    header .navbar-nav {
         margin-left: -180px;
         background-color: #ffffff !important;
         border-radius: 5px;
@@ -603,7 +603,7 @@ footer .email {
     }
 
     .navbar-toggler {
-        margin-left: 250px;
+        margin-left: 400px;
         margin-top: -80px;
     }
 
@@ -615,6 +615,12 @@ footer .email {
         width: 150%;
         height: 500px;
         margin-top: 0px;
+    }
+
+     nav.navbar {
+        background-color: #ffffff !important;
+        height: 100px;
+        z-index: 1000;
     }
 
     #logo {
