@@ -604,8 +604,8 @@ footer .email {
     }
 
     .navbar-toggler {
-        margin-left: 300px;
-        margin-top: -80px;
+        margin-left: 280px;
+        margin-top: -60px;
     }
 
     .slider{
@@ -620,7 +620,7 @@ footer .email {
 
      header nav.navbar {
         background-color: #fff !important;
-        height: 100px;
+        height: 80px;
         z-index: 1000;
         margin-left: 0px;
     }
