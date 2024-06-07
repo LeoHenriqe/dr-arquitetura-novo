@@ -1,5 +1,5 @@
 const projects = [
-    ["imagens/farmácia bom preço/1.jpg", "imagens/farmácia bom preço/2.jpeg", "imagens/farmácia bom preço/3.jpeg", "imagens/farmácia bom preço/4.jpg"],
+    ["imagens/FARMÁCIA BOM PREÇO/1.jpg", "imagens/FARMÁCIA BOM PREÇO/2.jpeg", "imagens/FARMÁCIA BOM PREÇO/3.jpeg", "imagens/FARMÁCIA BOM PREÇO/4.jpg"],
     ["imagens/PROJETO HABITAÇÃO SERIADA/1.png", "imagens/PROJETO HABITAÇÃO SERIADA/2.png"],
     ["/imagens/studiok/SVG/Ativo 1.svg", "/imagens/studiok/SVG/Ativo 2.svg", "/imagens/studiok/SVG/Ativo 3.svg"],
     ["imagens/j231/1.jpg", "imagens/j231/2.png", "imagens/j231/3.png", "imagens/j231/4.png", "imagens/j231/5.png"],
