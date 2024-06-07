@@ -223,12 +223,13 @@
     }
     
     #modal .prev img {
-        left: -50px;
+        left: -80px;
         position: relative;
-        z-index: 1000000;
+        width: 10%;
     }
     
     #modal .next img{
-        right: -50px;
+        right: -80px;
+        width: 10%;
     }
 }
