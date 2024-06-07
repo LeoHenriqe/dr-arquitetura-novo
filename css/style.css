@@ -608,11 +608,12 @@ footer .email {
     }
 
     .slider{
-        height: 400px;
+        height: 500px;
     }
 
     .slide img {
         width: 150%;
+        height: 500px;
         margin-top: 0px;
     }
 
@@ -631,9 +632,9 @@ footer .email {
     }
 
     .first-sec {
-        top: 20px;
+        top: 100px;
         left: 0;
-        height: 600px;
+        height: 500px;
     }
 
     .first-sec .txt-top h1 {
