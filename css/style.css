@@ -596,6 +596,7 @@ footer .email {
         margin-left: -180px;
         background-color: #ffffff !important;
         border-radius: 5px;
+        height: 400px;
     }
 
     .navbar-nav a {
@@ -621,6 +622,7 @@ footer .email {
         background-color: #ffffff !important;
         height: 100px;
         z-index: 1000;
+        margin-left: 0px;
     }
 
     #logo {
