@@ -213,22 +213,20 @@
     
     .modal-content {
         margin-top: 150px;
-        width: 400px;
+        width: 100%;
     }
     
     #modal .prev,
     #modal .next {
-        top: 50%;
+        top:  300px;
     }
     
     #modal .prev img {
-        width: 50%;
         left: -80px;
         position: relative;
     }
     
     #modal .next img{
-        width: 50%;
         right: -80px;
     }
 }
