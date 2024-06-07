@@ -218,17 +218,17 @@
     
     #modal .prev,
     #modal .next {
-        top: 80%;
+        top: 90%;
     }
     
     #modal .prev img {
-        width: 5%;
-        left: -120px;
+        width: 10%;
+        left: -80px;
         position: relative;
     }
     
     #modal .next img{
-        width: 5%;
-        right: -120px;
+        width: 10%;
+        right: -80px;
     }
 }
