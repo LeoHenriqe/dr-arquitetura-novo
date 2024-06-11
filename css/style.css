@@ -16,6 +16,19 @@ select{
     color: #585858;
 }
 
+#option4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+#option4 input{
+    width: 260px;
+}
+
 #botao-form{
     margin-top: 10px;
     width: 260px;

@@ -59,13 +59,12 @@ function submitForm() {
     var option1 = document.getElementById('option1').value;
     var option2 = document.getElementById('option2').value;
     var option3 = document.getElementById('option3').value;
+    var  email = document.getElementById('email').value;
+    var  nome = document.getElementById('nome').value;
 
     // Construa a mensagem com os resultados do formulário
-    var mensagem = "Resultado do formulário:\n";
-    mensagem += "Passo 1: " + option1 + "\n";
-    mensagem += "Passo 2: " + option2 + "\n";
-    mensagem += "Passo 3: " + option3;
+    var mensagem = "Olá, gostaria de fazer um orçamento sobre\n" + option1 + option2  +  option3 +  email + nome;
 
     // Abra o WhatsApp com a mensagem
-    window.open('https://wa.me/seu_numero_de_telefone/?text=' + encodeURIComponent(mensagem), '_blank');
+    window.open('https://wa.me/+556299278558/?text=' + encodeURIComponent(mensagem), '_blank');
 }

@@ -90,9 +90,10 @@
                         href="https://api.whatsapp.com/send/?phone=5562985739309&text&type=phone_number&app_absent=0">
                         Solicitar Orçamento </a></button>
             </div>
+
             <div class="box-right">
+
                 <div id="step1" class="form-step active-step">
-                    <h2>Passo 1</h2>
                     <div class="box-container">
                         <div class="box-imgs">
                             <img id="number-svg" src="/imagens/1-verde.svg" alt="">
@@ -100,18 +101,20 @@
                             <img id="number-svg" src="/imagens/number-square-two-thin-svgrepo-com.svg" alt="">
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/number-square-three-thin-svgrepo-com.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
+                        <h2>QUE SERVIÇO VOCÊ PRECISA?</h2>
                         <select id="option1">
-                            <option value="opcao1">Opção 1</option>
-                            <option value="opcao2">Opção 2</option>
-                            <option value="opcao3">Opção 3</option>
+                            <option value="Elaboração de projetos, ">Elaboração de projetos</option>
+                            <option value="Construção de Imóvel, ">Construção de Imóvel</option>
+                            <option value="Design de Interiores, ">Design de Interiores</option>
                         </select>
                         <button id="botao-form" onclick="nextStep()">Avançar</button>
                     </div>
                 </div>
 
                 <div id="step2" class="form-step">
-                    <h2>Passo 2</h2>
                     <div class="box-container">
                         <div class="box-imgs">
                             <img id="number-svg" src="/imagens/number-square-one-thin-svgrepo-com.svg" alt="">
@@ -119,18 +122,20 @@
                             <img id="number-svg" src="/imagens/2-verde.svg" alt="">
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/number-square-three-thin-svgrepo-com.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
+                        <h2>O QUE PLANEJA CONSTRUIR?</h2>
                         <select id="option2">
-                            <option value="opcao1">Opção 1</option>
-                            <option value="opcao2">Opção 2</option>
-                            <option value="opcao3">Opção 3</option>
+                            <option value="Casa Térrea, ">Casa Térrea</option>
+                            <option value="Sobrado, ">Sobrado</option>
+                            <option value="Edificação comercial/galpão, ">Edificação comercial/galpão</option>
                         </select>
                         <button onclick="nextStep()">Avançar</button>
                     </div>
                 </div>
 
                 <div id="step3" class="form-step">
-                    <h2>Passo 3</h2>
                     <div class="box-container">
                         <div class="box-imgs">
                             <img id="number-svg" src="/imagens/number-square-one-thin-svgrepo-com.svg" alt="">
@@ -138,15 +143,41 @@
                             <img id="number-svg" src="/imagens/number-square-two-thin-svgrepo-com.svg" alt="">
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/3-verde.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
+                        <h2>ONDE FICA SEU TERRENO?</h2>
                         <select id="option3">
-                            <option value="opcao1">Opção 1</option>
-                            <option value="opcao2">Opção 2</option>
-                            <option value="opcao3">Opção 3</option>
+                            <option value="Elaboração de projetos, ">Elaboração de projetos</option>
+                            <option value="Construção de Imóvel, ">Construção de Imóvel</option>
+                            <option value="Design de Interiores, ">Design de Interiores</option>
                         </select>
-                        <button onclick="submitForm()">Enviar</button>
+                        <button onclick="nextStep()">Avançar</button>
                     </div>
                 </div>
+
+                <div id="step4" class="form-step">
+                    <div class="box-container">
+                        <div class="box-imgs">
+                            <img id="number-svg" src="/imagens/number-square-one-thin-svgrepo-com.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/number-square-two-thin-svgrepo-com.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/number-square-three-thin-svgrepo-com.svg" alt="">
+                            <div id="div-linha"></div>
+                            <img id="number-svg" src="/imagens/4-verde.svg" alt="">
+                        </div>
+                        <h2>Passo 4</h2>
+                        <form id="option4">
+                            <label for="nome">Nome</label>
+                            <input type="email" name="email" id="nome">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </form>
+                        <button onclick="submitForm()" id="botao-form">Enviar</button>
+                    </div>
+                </div>
+
                 <div class="box-refe">
                     <div class="container1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
                         data-aos-offset="0">
