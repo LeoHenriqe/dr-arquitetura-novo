@@ -1,5 +1,54 @@
 @import url(/css/projetos.css);
 
+.form-step {
+    display: none;
+}
+
+.active-step {
+    display: block;
+}
+
+select{
+    width: 260px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #585858;
+}
+
+#botao-form{
+    margin-top: 10px;
+    width: 260px;
+    height: 40px;
+    border: none;
+}
+
+#number-svg{
+    width: 8%;
+}
+
+.box-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-linha{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
+.form-step{
+    flex-direction: column;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -168,12 +217,13 @@ header .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.box-right h1{
-     color: white;
-     font-size: 1.5rem;
-     padding: 10px;
+.box-right h1 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 .box-right img {
@@ -608,7 +658,7 @@ footer .email {
         margin-top: -60px;
     }
 
-    .slider{
+    .slider {
         height: 500px;
     }
 
@@ -618,7 +668,7 @@ footer .email {
         margin-top: 0px;
     }
 
-     header nav.navbar {
+    header nav.navbar {
         background-color: #fff !important;
         height: 80px;
         z-index: 1000;
