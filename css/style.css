@@ -8,11 +8,19 @@
     display: block;
 }
 
-select{
-    width: 260px;
-    text-align: center;
-    font-size: 1.2rem;
+#h2-formulario{
+    color: white;
+    font-size: 1.4rem;
     font-weight: 300;
+}
+
+select{
+    border-radius: 4px;
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
     color: #585858;
 }
 
@@ -26,14 +34,33 @@ select{
 }
 
 #option4 input{
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
     width: 260px;
+    height: 40px;
+    margin: 5px;
+}
+
+select:focus{
+    border: 2px #469A16 solid;
+    outline: none;
+}
+
+#option4 input:focus{
+    border: 2px #469A16 solid;
+    outline: none;
 }
 
 #botao-form{
     margin-top: 10px;
     width: 260px;
     height: 40px;
+    font-weight: 600;
     border: none;
+    border-radius: 4px;
+    background-color: #469A16;
+    color: rgb(255, 255, 255);
 }
 
 #number-svg{
@@ -399,7 +426,7 @@ header .navbar {
 .finan .container button {
     border: none;
     background-color: white;
-    color: #469A16;
+    color: rgb(70, 154, 22);
     margin: 20px;
     width: 400px;
     font-size: 1.5rem;

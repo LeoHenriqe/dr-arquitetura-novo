@@ -92,7 +92,6 @@
             </div>
 
             <div class="box-right">
-
                 <div id="step1" class="form-step active-step">
                     <div class="box-container">
                         <div class="box-imgs">
@@ -104,11 +103,12 @@
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
-                        <h2>QUE SERVIÇO VOCÊ PRECISA?</h2>
+                        <h2 id="h2-formulario" style="text-align: left;">Que serviço você precisa?</h2>
                         <select id="option1">
-                            <option value="Elaboração de projetos, ">Elaboração de projetos</option>
-                            <option value="Construção de Imóvel, ">Construção de Imóvel</option>
-                            <option value="Design de Interiores, ">Design de Interiores</option>
+                            <option value=" Elaboração de projetos">Elaboração de projetos</option>
+                            <option value=" Construção de Imóvel">Construção de Imóvel</option>
+                            <option value=" Design de Interiores">Design de Interiores</option>
+                            <option value=" Outros serviços">Outros serviços</option>
                         </select>
                         <button id="botao-form" onclick="nextStep()">Avançar</button>
                     </div>
@@ -125,13 +125,14 @@
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
-                        <h2>O QUE PLANEJA CONSTRUIR?</h2>
+                        <h2 id="h2-formulario" style="text-align: left;">O que planeja construir?</h2>
                         <select id="option2">
-                            <option value="Casa Térrea, ">Casa Térrea</option>
-                            <option value="Sobrado, ">Sobrado</option>
-                            <option value="Edificação comercial/galpão, ">Edificação comercial/galpão</option>
+                            <option value=" Casa Térrea">Casa Térrea</option>
+                            <option value=" Sobrado">Sobrado</option>
+                            <option value=" Edificação comercial/galpão">Edificação comercial/galpão</option>
+                            <option value=" Outros">Outros</option>
                         </select>
-                        <button onclick="nextStep()">Avançar</button>
+                        <button onclick="nextStep()" id="botao-form">Avançar</button>
                     </div>
                 </div>
 
@@ -146,13 +147,22 @@
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/4.svg" alt="">
                         </div>
-                        <h2>ONDE FICA SEU TERRENO?</h2>
+                        <h2 id="h2-formulario" style="text-align: left;">Onde seu terreno fica?</h2>
                         <select id="option3">
-                            <option value="Elaboração de projetos, ">Elaboração de projetos</option>
-                            <option value="Construção de Imóvel, ">Construção de Imóvel</option>
-                            <option value="Design de Interiores, ">Design de Interiores</option>
+                            <option value=" Goiânia">Goiânia</option>
+                            <option value=" Itapuranga">Itapuranga</option>
+                            <option value=" Itaberaí">Itaberaí</option>
+                            <option value=" outra">Outra cidade</option>
                         </select>
-                        <button onclick="nextStep()">Avançar</button>
+                        <h2 id="h2-formulario" style="text-align: left;">Qual tamanho?</h2>
+                        <select id="option6">
+                            <option value=" Até 200 m²">Até 200 m²</option>
+                            <option value=" Entre 200 m² e 300 m²">Entre 200 m² e 300 m²</option>
+                            <option value=" Entre 300 m² e 400 m²">Entre 300 m² e 400 m²</option>
+                            <option value=" Entre 400 m² e 600 m²">Entre 400 m² e 600 m²</option>
+                            <option value=" Acima de 600 m²">Acima de 600 m²</option>
+                        </select>
+                        <button onclick="nextStep()" id="botao-form">Avançar</button>
                     </div>
                 </div>
 
@@ -167,12 +177,9 @@
                             <div id="div-linha"></div>
                             <img id="number-svg" src="/imagens/4-verde.svg" alt="">
                         </div>
-                        <h2>Passo 4</h2>
                         <form id="option4">
-                            <label for="nome">Nome</label>
-                            <input type="email" name="email" id="nome">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
+                            <input required type="text" id="nome" placeholder="Nome">
+                            <input required type="email" id="email" placeholder="Email">
                         </form>
                         <button onclick="submitForm()" id="botao-form">Enviar</button>
                     </div>
