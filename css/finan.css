@@ -195,6 +195,22 @@ verde {
     border-radius: 10px;
 }
 
+.sobre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre p{
+    font-size: 2rem;
+    color: green;
+}
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .final {
     display: flex;
     align-items: center;
