@@ -21,7 +21,9 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(/imagens/freepik-export-20240529165458Ms5C.png);
+    background-image: url(/imagens/back.jpeg);
+    background-position: center center;
+    background-size: contain;
 }
 
 .sec-one .container {
