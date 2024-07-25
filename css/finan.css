@@ -30,9 +30,10 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(/imagens/back.png);
+    background-image: url(/imagens/1x/Ativo\ 3.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .logo-1 {
@@ -423,5 +424,61 @@ verde {
         transform: scale(1);
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out;
+    }
+}
+
+#gradiente {
+    background: linear-gradient(90deg, #ff00006b, #00ff006e, #ff000055, #00ff0050, #ff00006b);
+    background-size: 200%;
+    animation: moverGradiente 10s infinite;
+}
+
+@keyframes moverGradiente {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+
+    .sec-one .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .txt-orcamento #butao-orcamento{
+        width: 300px !important;
+    }
+
+    .txt-orcamento{
+        align-items: center;
+    }
+
+    .txt-orcamento p{
+        font-size: 0.9rem;
+    }
+
+    .frase p{
+        font-size: 1.4rem;
+    }
+
+    .sobre img{
+        width: 100%;
+    }
+
+    .final .container #butao-orcamento{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .final .container #butao-orcamento a{
+        font-size: 1.3rem !important;
     }
 }
