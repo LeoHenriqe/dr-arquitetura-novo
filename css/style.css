@@ -1,5 +1,10 @@
 @import url(/css/projetos.css);
 
+.heartbeat {
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
 .form-step {
     display: none;
 }
@@ -8,13 +13,13 @@
     display: block;
 }
 
-#h2-formulario{
+#h2-formulario {
     color: white;
     font-size: 1.4rem;
     font-weight: 300;
 }
 
-select{
+select {
     border-radius: 4px;
     width: 260px;
     height: 40px;
@@ -24,7 +29,7 @@ select{
     color: #585858;
 }
 
-#option4{
+#option4 {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -33,7 +38,7 @@ select{
     font-weight: 300;
 }
 
-#option4 input{
+#option4 input {
     border-radius: 4px;
     border: none;
     padding: 12px;
@@ -42,17 +47,17 @@ select{
     margin: 5px;
 }
 
-select:focus{
+select:focus {
     border: 2px #469A16 solid;
     outline: none;
 }
 
-#option4 input:focus{
+#option4 input:focus {
     border: 2px #469A16 solid;
     outline: none;
 }
 
-#botao-form{
+#botao-form {
     margin-top: 10px;
     width: 260px;
     height: 40px;
@@ -63,27 +68,27 @@ select:focus{
     color: rgb(255, 255, 255);
 }
 
-#number-svg{
+#number-svg {
     width: 8%;
 }
 
-.box-imgs{
+.box-imgs {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#div-linha{
+#div-linha {
     width: 60px;
     height: 2px;
     background-color: white;
 }
 
-.form-step{
+.form-step {
     flex-direction: column;
 }
 
-.box-container{
+.box-container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1065,4 +1070,82 @@ footer .email {
         font-size: 0.7rem;
     }
 
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
 }
